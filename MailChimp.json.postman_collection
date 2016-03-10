@@ -1,0 +1,56 @@
+{
+	"id": "f44200a0-0a52-1908-25e2-7d3672d2c4ae",
+	"name": "MailChimp",
+	"description": "",
+	"order": [
+		"b4bf72f2-901a-4f99-a895-8cb94d7a5ebe",
+		"207ec412-cf15-6ef7-0de3-4b489e5dd1e3"
+	],
+	"folders": [],
+	"timestamp": 1457580581938,
+	"owner": "44545",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "207ec412-cf15-6ef7-0de3-4b489e5dd1e3",
+			"headers": "Authorization: apikey d920e1ab5bad45d1242bebb30d8ad4c1-us13\nContent-Type: application/json\n",
+			"url": "https://us13.api.mailchimp.com/3.0/lists/5383e8003d/members",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1457581143572,
+			"name": "Member List",
+			"description": "",
+			"collectionId": "f44200a0-0a52-1908-25e2-7d3672d2c4ae",
+			"responses": [],
+			"rawModeData": "{\"email_address\":\"urist.mcvankab+3@freddiesjokes.com\", \"status\":\"subscribed\"}"
+		},
+		{
+			"id": "b4bf72f2-901a-4f99-a895-8cb94d7a5ebe",
+			"headers": "Authorization: apikey d920e1ab5bad45d1242bebb30d8ad4c1-us13\nContent-Type: application/json\n",
+			"url": "https://us13.api.mailchimp.com/3.0/lists/5383e8003d/members",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1457581143572,
+			"name": "Add menbers",
+			"description": "",
+			"collectionId": "f44200a0-0a52-1908-25e2-7d3672d2c4ae",
+			"responses": [],
+			"rawModeData": "{\"email_address\":\"urist.mcvankab+3@freddiesjokes.com\", \"status\":\"subscribed\"}"
+		}
+	]
+}
